@@ -55,7 +55,7 @@ git push origin main
 
 Pull updates з remote repository
 git pull origin main
-
+              question 2 Що таке "комміт", як він дозволяє відслідковувати зміни у файлах?
   2) Commit — це зафіксований стан файлів у repository на певний момент часу. Іншими словами, це збереження змін у системі version control із додаванням commit message, який описує виконані зміни.
 
 Кожен commit має:
