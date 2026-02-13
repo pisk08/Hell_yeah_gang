@@ -1,1 +1,57 @@
                                                   Workcase 1
+               question 1: Опишіть для чого використовують git, які основні дії та команди в ньому виконують.
+Git — це distributed version control system, яка використовується для tracking changes у projects та організації effective teamwork. Вона дозволяє зберігати commit history, керувати різними versions програмного забезпечення та забезпечувати synchronization між developers.
+
+Git широко застосовується під час розробки software, web applications, документації та інших digital projects, де важливо здійснювати change control і мати можливість rollback до попередніх versions.
+
+Основні можливості Git
+збереження повної commit history у repository;
+створення та management гілок (branches);
+merge змін із різних branches;
+можливість rollback до попередніх versions файлів;
+організація collaborative development;
+синхронізація local repository з remote repository;
+контроль доступу та version tracking.
+
+Основні дії та команди Git
+
+Ініціалізація repository
+git init
+
+Створює новий local repository.
+Клонування remote repository
+git clone URL
+
+Створює копію remote repository на локальному комп’ютері.
+Додавання файлів до staging area
+git add filename
+git add .
+
+Створення commit
+git commit -m "commit message"
+
+Фіксує changes у repository.
+Перевірка статусу
+git status
+
+Перегляд commit history
+git log
+
+Робота з branches
+Створення branch:
+git branch branch_name
+
+Перехід на branch:
+git checkout branch_name
+
+Створення та перехід одночасно:
+git checkout -b branch_name
+
+Merge branches
+git merge branch_name
+
+Push changes до remote repository
+git push origin main
+
+Pull updates з remote repository
+git pull origin main
