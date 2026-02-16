@@ -101,7 +101,8 @@ Android використовує touch-based graphical interface.
 <img width="900" height="1200" alt="image" src="https://github.com/user-attachments/assets/49debb78-78aa-4880-8d4a-73893400de60" />
 
 ### 2. Меню налаштувань
-<img width="1250" height="2500" alt="image" src="https://github.com/user-attachments/assets/6b75d1d0-587d-4d22-95b9-f8d63e35ad91" />
+<img width="470" height="948" alt="image" src="https://github.com/user-attachments/assets/16347071-d6d9-4eff-bb41-a077257aaefa" />
+
 
 Settings → Network, Display, Security, Battery, Apps.
 
