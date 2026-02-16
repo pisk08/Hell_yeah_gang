@@ -69,7 +69,7 @@ gnome-terminal
 Зміна користувача на root
 
 У графічному режимі root зазвичай не використовується для входу.
-Instead, we use the command:
+Instead, we use the command:  💅
 
 sudo -i
 
