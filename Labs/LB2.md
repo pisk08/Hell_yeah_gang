@@ -71,12 +71,8 @@ gnome-terminal
 У графічному режимі root зазвичай не використовується для входу.
 Instead, we use the command:  💅
 
-sudo -i
+sudo -i або su -
 
-
-або
-
-su -
 
 Перезавантаження системи
 
