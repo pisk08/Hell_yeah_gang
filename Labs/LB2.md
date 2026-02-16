@@ -12,11 +12,11 @@
 Завдання для попередньої підготовки.
 
 
-CLI-режим (Command Line Interface) — це режим роботи операційної системи, у якому користувач взаємодіє із системою шляхом введення текстових команд у терміналі.
+***CLI-режим*** (Command Line Interface) - це режим роботи операційної системи, у якому користувач взаємодіє із системою шляхом введення текстових команд у терміналі.
 
-Термінал на основі графічного інтерфейсу користувача — це віконна програма (наприклад, GNOME Terminal), яка дозволяє працювати з командним рядком у середовищі GUI.
+***Термінал на основі графічного інтерфейсу користувача*** - це віконна програма (наприклад, GNOME Terminal), яка дозволяє працювати з командним рядком у середовищі GUI.
 
-Віртуальний термінал — це текстова консоль, що працює незалежно від графічного інтерфейсу та викликається комбінаціями клавіш (Ctrl + Alt + F1–F6).
+***Віртуальний термінал*** - це текстова консоль, що працює незалежно від графічного інтерфейсу та викликається комбінаціями клавіш `(Ctrl + Alt + F1–F6)`.
 
 ## 1) Робота в графічному режимі Linux (GNOME)
 
@@ -46,23 +46,24 @@ GNOME підтримує dynamic workspaces. Новий робочий стіл 
 ## 2)  Запуск програм
 ### 1. Через панель швидкого запуску
 
-Натиснути на іконку програми в Dash.
+``Натиснути на іконку програми в Dash.``
 
 ### 2. Через пошук (Applications Search)
 
-Натиснути Super → ввести назву програми → Enter.
+``Натиснути Super → ввести назву програми → Enter.``
 
 ### 3. Через віджет запуску
 
-Відкрити список програм (Show Applications) → вибрати програму.
+``Відкрити список програм (Show Applications) → вибрати програму.``
 
 ### 4. Через термінал (CLI)
 
 Example:
-
+```
 firefox
 nautilus
 gnome-terminal
+```
 
 ## 2.1  Вихід з системи та завершення роботи
 
@@ -71,16 +72,16 @@ gnome-terminal
 У графічному режимі root зазвичай не використовується для входу.
 Instead, we use the command:  💅
 
-sudo -i або su -
+`sudo -i або su -`
 
 
 Перезавантаження системи
 
-System menu → Power Off / Log Out → Restart.
+``System menu → Power Off / Log Out → Restart.``
 
 Вимкнення системи
 
-System menu → Power Off → Power Off.
+``System menu → Power Off → Power Off.``
 
 <img width="397" height="430" alt="image" src="https://github.com/user-attachments/assets/c2a4e8c2-2532-4499-95d7-25d06cf428fc" />
 
@@ -100,21 +101,21 @@ Android використовує touch-based graphical interface.
 <img width="470" height="948" alt="image" src="https://github.com/user-attachments/assets/16347071-d6d9-4eff-bb41-a077257aaefa" />
 
 
-Settings → Network, Display, Security, Battery, Apps.
+``Settings → Network, Display, Security, Battery, Apps.``
 
 ### 3. Комбінації клавіш
+```
+Power + Volume Down - screenshot
 
-Power + Volume Down — screenshot
-
-Power (long press) — power menu
-
+Power (long press) - power menu
+```
 ### 4. Вхід у систему
 
-PIN, Pattern, Fingerprint, Face Unlock.
+``PIN, Pattern, Fingerprint, Face Unlock.``
 
 ### 5. Налаштування батареї
 
-Battery Saver Mode дозволяє зменшити енергоспоживання.
+``Battery Saver Mode дозволяє зменшити енергоспоживання.``
 
 
  # Контрольні запитання
@@ -158,7 +159,7 @@ Battery Saver Mode дозволяє зменшити енергоспожива�
     </tr>
 </table>
 
-### 4. Менеджер пакетів
+### 3. Менеджер пакетів
 
 Менеджер пакетів потрібен для встановлення, оновлення та видалення програм.
 
@@ -172,7 +173,7 @@ Battery Saver Mode дозволяє зменшити енергоспожива�
 
  - Zypper (openSUSE)
 
-4. Засоби безпеки в Linux
+### 4. Засоби безпеки в Linux
 
  - Права доступу (rwx)
 
@@ -191,7 +192,7 @@ It reduces hardware costs and improves testing flexibility.
 
 ### 6. Контейнеризація
 
-Контейнеризація — це технологія ізоляції додатків у легковагових середовищах (Docker).
+Контейнеризація - це технологія ізоляції додатків у легковагових середовищах (Docker).
 Вона використовує спільне ядро системи.
 
 ### 7. Переваги та недоліки open-source
@@ -212,9 +213,9 @@ It reduces hardware costs and improves testing flexibility.
 
 ### 8. Скільки активних віртуальних консолей?
 
-За замовчуванням — 6 текстових (tty1–tty6).
-Виклик: Ctrl + Alt + F1–F6.
-Повернення до графічної оболонки: Ctrl + Alt + F2 (або F7 залежно від системи).
+За замовчуванням - 6 текстових (tty1–tty6).
+Виклик: ``Ctrl + Alt + F1–F6.``
+Повернення до графічної оболонки: ``Ctrl + Alt + F2 (або F7 залежно від системи)``.
 
 ### 9. Яка консоль виконує функцію графічної оболонки?
 
@@ -231,7 +232,7 @@ It reduces hardware costs and improves testing flexibility.
 
  - Адміністрування
 
-# Conclusion
+## Conclusion
 
 During the laboratory work in the GNOME desktop environment, we learnt methods of launching applications, system shutdown procedures, mobile operating system features, and the basic concepts of CLI and virtual terminals were studied and analyzed.
 The acquired knowledge allows confident work in both graphical and command-line modes of the Linux operating system.
