@@ -17,20 +17,21 @@
 
 ## 1. Таблиця команд (Command table)
 
-Command name	Purpose and functionality
-ls	Shows information about files and directories. If used without parameters, displays the contents of the current directory.
-ls -l	The -l option provides a detailed (long) listing format for files in the current directory.
-ls -l /tmp	Displays detailed information about the contents of the /tmp directory.
-whoami	Prints the name of the currently logged-in user.
-pwd	Displays the full path of the current working directory.
-history	Outputs a list of commands previously executed in the current shell session.
-echo Text	Prints the specified text (for example, “Text”) to the terminal window.
-date	Shows the current system date and time.
-man date	Opens the manual page with detailed documentation for the date command.
-man -k password	Searches manual page descriptions for the keyword “password”.
-sudo --help	Displays usage information and help for the sudo command.
-ls -al	Lists all files and directories, including hidden ones, in long format with detailed information.
-locate spotify	Searches the system for files and directories containing “spotify” in their names using a file index database.
+| Command name        | Purpose and functionality |
+|---------------------|--------------------------|
+| `ls` | Shows information about files and directories. If used without parameters, displays the contents of the current directory. |
+| `ls -l` | The `-l` option provides a detailed (long) listing format for files in the current directory. |
+| `ls -l /tmp` | Displays detailed information about the contents of the `/tmp` directory. |
+| `whoami` | Prints the name of the currently logged-in user. |
+| `pwd` | Displays the full path of the current working directory. |
+| `history` | Outputs a list of commands previously executed in the current shell session. |
+| `echo Text` | Prints the specified text (for example, "Text") to the terminal window. |
+| `date` | Shows the current system date and time. |
+| `man date` | Opens the manual page with detailed documentation for the `date` command. |
+| `man -k password` | Searches manual page descriptions for the keyword "password". |
+| `sudo --help` | Displays usage information and help for the `sudo` command. |
+| `ls -al` | Lists all files and directories, including hidden ones, in long format with detailed information. |
+| `locate spotify` | Searches the system for files and directories containing "spotify" in their names using a file index database. |
 
 
 ## 2. Робота в в терміналі
@@ -60,27 +61,28 @@ locate spotify	Searches the system for files and directories containing “spoti
 
 ### 1. Які типи команд існують в оболонці Bash?
 
-В оболонці Bash існують вбудовані команди, зовнішні команди, функції оболонки, аліаси та скрипти, які виконуються в середовищі командного рядка.
+У Bash є кілька видів команд: вбудовані (які виконуються самою оболонкою), зовнішні програми, функції оболонки, аліаси та скрипти. Усі вони виконуються через командний рядок.
 
 ### 2. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
 
-Змінні оточення - це змінні, які зберігають інформацію про середовище роботи користувача та передаються дочірнім процесам; вони бувають локальні та глобальні (експортовані), а переглянути їх можна за допомогою команд env, printenv або echo $ІМʼЯ_ЗМІННОЇ.
+Змінні оточення — це спеціальні змінні, що зберігають дані про робоче середовище користувача і можуть передаватися іншим процесам. Вони поділяються на локальні та глобальні (експортовані). Переглянути їх можна командами env, printenv або echo $НАЗВА_ЗМІННОЇ.
 
 ### 3. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
 
-Змінна $PS1 визначає вигляд рядка запрошення в Bash, тобто текст, який відображається перед введенням кожної команди, а переглянути її значення можна командою echo $PS1.
+Змінна $PS1 відповідає за вигляд командного запрошення в Bash — тобто тексту, який з’являється перед введенням команди. Подивитися її значення можна за допомогою команди echo $PS1.
 
 ### 4. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
 
-мінити значення змінної $PS1 можна присвоївши їй нове значення командою PS1="текст", після чого зміниться вигляд рядка запрошення; щоб зміна діяла постійно, потрібно додати нове значення в файл ~/.bashrc.
+Щоб змінити вигляд запрошення, потрібно присвоїти змінній нове значення, наприклад:
+PS1="новий текст" — після цього рядок запрошення зміниться. Щоб ця зміна зберігалася постійно, слід додати відповідний рядок у файл ~/.bashrc.
 
 ### 5. Для чого використовують лапки в оболонці Bash?
 
-Лапки в оболонці Bash використовують для керування обробкою тексту та змінних, де одинарні лапки повністю вимикають підстановку змінних, а подвійні дозволяють їх розгортання.
+Лапки застосовуються для керування тим, як оболонка обробляє текст. Одинарні лапки повністю вимикають підстановку змінних, а подвійні дозволяють їх розгортання.
 
 ### 6. Для чого використовують інструкції керування, які їх види Ви знаєте?
 
-Інструкції керування використовують для організації логіки виконання команд у скриптах, до них належать умовні оператори (if), оператор вибору (case), цикли (for, while, until) та логічні оператори (&&, ||).
+Інструкції керування використовують для побудови логіки виконання команд у скриптах. До них належать умовні оператори (if), оператор вибору (case), цикли (for, while, until) та логічні оператори (&&, ||).
 
 ### 7. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #? Наприклад на екрані ми бачимо наступні записи
 
@@ -93,7 +95,7 @@ locate spotify	Searches the system for files and directories containing “spoti
   
 ### 8. Яке призначення команд whereis та locate? Яка між ними відмінність?
 
-Команда whereis призначена для пошуку розташування виконуваних файлів, вихідного коду та man-сторінок у стандартних каталогах, тоді як locate здійснює швидкий пошук файлів у всій системі за допомогою попередньо створеної бази даних, тому locate знаходить більше результатів і працює швидше.
+Команда whereis використовується для пошуку виконуваних файлів, вихідного коду та man-сторінок у стандартних каталогах. Команда locate здійснює швидкий пошук по всій файловій системі, використовуючи заздалегідь створену базу даних. Тому locate зазвичай працює швидше та знаходить більше результатів.
 
 ---
 
