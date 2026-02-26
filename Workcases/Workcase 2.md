@@ -1,13 +1,11 @@
 # Workcase 2
 
-## Мета роботи: Ознайомитися з роботою гіпервізора ІІ типу, навчитися створювати віртуальні машини, керувати віртуальним обладнанням, а також встановлювати ОС GNU/Linux у різних конфігураціях (графічній та термінальній) із подальшим налаштуванням графічних оболонок.
-
 ## Виконали: Піскун М.О., Божок Т.Ю., Гусєв І.Ю.
 
 ## Glossary
 
 
-| Український термін | Англійський термін | Абревіатура / Примітка |
+|  Термін Українською |  Термін Англійською | Абревіатура / Примітка |
 | :--- | :--- | :--- |
 | **Гіпервізор ІІ типу** | Type-2 Hypervisor / Hosted Hypervisor | Працює поверх основної операційної системи. |
 | **Віртуальна машина** | Virtual Machine | **VM** |
@@ -58,6 +56,7 @@
 Після базового налаштування мінімальної системи, за допомогою менеджера пакетів `apt` було встановлено графічну оболонку GNOME командами:
 `sudo apt update`
 `sudo apt install ubuntu-desktop`
+`sudo reboot`
 Після перезавантаження система успішно запустилася з графічним інтерфейсом.
 
 ![Скріншот робочого столу GNOME на другій ВМ](img/img3.png)
@@ -79,4 +78,5 @@
 | **Кастомізація** | Здійснюється переважно через сторонні розширення (GNOME Extensions) | Високий ступінь налаштування "з коробки" (панелі, віджети) |
 | **Швидкодія у ВМ** | Може мати затримки без 3D-прискорення | Працює дуже швидко та плавно |
 
-## **Conclusion:** GNOME offers a modern and visually appealing interface but is highly resource-intensive. On the other hand, XFCE serves as an excellent alternative for virtual machines or legacy hardware, as it ensures fast, smooth performance while maintaining a classic and intuitive desktop design.
+## **Conclusion**
+GNOME offers a modern and visually appealing interface but is highly resource-intensive. On the other hand, XFCE serves as an excellent alternative for virtual machines or legacy hardware, as it ensures fast, smooth performance while maintaining a classic and intuitive desktop design.
