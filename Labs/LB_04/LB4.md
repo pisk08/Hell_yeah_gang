@@ -1,4 +1,5 @@
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/00ec69bf-77c6-4b75-8ec8-b0fe31bcfbd7" /># Лабораторна робота №4
+
+# Лабораторна робота №4
 ## Тема: Команди Linux для керування процесами
 
 ## **Мета роботи:**
@@ -201,6 +202,7 @@ In the practical section, the `top` utility was applied to observe system perfor
 - **Member 1 ([Shanson777])**: Added a comprehensive guide on Linux commands for process management, including objectives, materials, and practical exercises.
 - **Member 2 ([Pisk08])**:  Updated the content of the laboratory work document to include detailed explanations of Linux commands for process management, team contributions, and additional sections on terminal commands and process handling.
 - **Member 3 ([Vangus387474])**:  Answered the control questions and did conclusion. 
+
 
 
 
