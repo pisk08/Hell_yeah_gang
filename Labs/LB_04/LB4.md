@@ -1,4 +1,4 @@
-# Лабораторна робота №4
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/00ec69bf-77c6-4b75-8ec8-b0fe31bcfbd7" /># Лабораторна робота №4
 ## Тема: Команди Linux для керування процесами
 
 ## **Мета роботи:**
@@ -191,15 +191,16 @@ In short, `top` is dynamic monitoring, while `ps` is a one-time listing.
 8. Yes, on Android devices it is possible to install third-party applications such as advanced task managers, system monitoring tools, and terminal emulators. These applications provide detailed information about CPU usage, RAM consumption, and background processes. Some advanced features may require root access for full functionality.
 
 ## Conclusion (Висновок)
-In this laboratory assignment, the fundamentals of process management in the Linux operating system were examined and evaluated. The structure and role of the /proc virtual file system were analyzed, with attention given to the system and process data it makes available. The methods for checking active user sessions were also reviewed using commands such as who and w.
+In this laboratory assignment, the fundamentals of process management in the Linux operating system were examined and evaluated. The structure and role of the `/proc` virtual file system were analyzed, with attention given to the system and process data it makes available. The methods for checking active user sessions were also reviewed using commands such as `who` and `w`.
 
-Hands-on experience in process control was gained by using terminal key combinations like Ctrl + C, Ctrl + D, and Ctrl + Z, along with commands including jobs, bg, fg, ps, and top. The distinction between foreground and background processes was clarified, and their practical usage was discussed.
+Hands-on experience in process control was gained by using terminal key combinations like Ctrl + C, Ctrl + D, and Ctrl + Z, along with commands including `jobs`, `bg`, `fg`, `ps`, and `top`. The distinction between foreground and background processes was clarified, and their practical usage was discussed.
 
-In the practical section, the top utility was applied to observe system performance and determine which processes consumed the most resources. Tasks such as suspending, resuming (both in foreground and background), and terminating processes were carried out successfully.
+In the practical section, the `top` utility was applied to observe system performance and determine which processes consumed the most resources. Tasks such as suspending, resuming (both in foreground and background), and terminating processes were carried out successfully.
 
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Added a comprehensive guide on Linux commands for process management, including objectives, materials, and practical exercises.
 - **Member 2 ([Pisk08])**:  Updated the content of the laboratory work document to include detailed explanations of Linux commands for process management, team contributions, and additional sections on terminal commands and process handling.
 - **Member 3 ([Vangus387474])**:  Answered the control questions and did conclusion. 
+
 
 
