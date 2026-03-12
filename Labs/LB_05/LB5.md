@@ -183,7 +183,7 @@
 **30-31. Перегляд вмісту створеної структури рекурсивно:**
 `cd ~`
 `ls -R --color=auto Hell_yeah_gang`
-> **Примітка:** [> **Примітка:** У моїй системі команда `ls` має встановлений аліас на `ls --color=auto`, проте я використовую повну форму команди, оскільки в завданні наголошено на кольоровому відображенні результатів. Це для того, щоб точно виконати умову завдання і показати, що я знаю, яка саме команда за це відповідає.]
+> **Примітка:** У моїй системі команда `ls` має встановлений аліас на `ls --color=auto`, проте я використовую повну форму команди, оскільки в завданні наголошено на кольоровому відображенні результатів. Це для того, щоб точно виконати умову завдання і показати, що я знаю, яка саме команда за це відповідає.]
 
 <img src="img/06.png">
 
@@ -208,7 +208,7 @@ The fastest way is to use the output redirection of the `echo` command:
 
 **4. How do you copy and delete an existing directory? Will there be a difference in the commands if the directory is not empty?**
 * **Copying:** The command `cp -r dir1 dir2` (the `-r` flag is used for recursive copying of all contents).
-* **Deleting:** * If the directory is **empty**, you can use `rmdir dirname`.
+* **Deleting:**  If the directory is **empty**, you can use `rmdir dirname`.
   * If the directory is **not empty**, you must use `rm -r dirname` (recursive deletion).
 
 <img src="img/09.png">
@@ -225,5 +225,6 @@ The fastest way is to use the output redirection of the `echo` command:
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
 - **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" and did sheet
+
 
 
