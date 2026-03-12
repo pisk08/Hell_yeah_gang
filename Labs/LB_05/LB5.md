@@ -128,13 +128,6 @@
 | `ls -l` | детальна інформація | `ls -l` |
 | `cat` | перегляд файлу | `cat file.txt` |
 
-<h1 align="center"> ЧОРТ ЗАБИРАЙ! </h1>
-
-
-
-<p align="center">
-  <img src="img/sheet.gif">
-</p>
 
 # 2. Опрацюйте всі приклади команд, що представлені у лабораторних роботах курсу NDG Linux Essentials - Lab 7: Navigating the Filesystem та Lab 8: Managing Files and Directories. Створіть таблицю для опису цих команд
 
@@ -231,5 +224,6 @@ The fastest way is to use the output redirection of the `echo` command:
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
 - **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" and did sheet
+
 
 
