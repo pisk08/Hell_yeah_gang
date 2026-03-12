@@ -217,10 +217,11 @@ The fastest way is to use the output redirection of the `echo` command:
 * `mv /work/tech/comp.png /work/tech/my_car.png` — **Renaming** (the path remains the same, only the filename changes).
 * `mv /work/tech/comp.png /Desktop/computer.png` — **Both actions simultaneously** (the file is moved to another directory and gets a new name at the same time).
 
-
+![](img/twitter-gif-2027148733020766343_69a0eba0c0d7f.gif)
 
 
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
 - **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" and did sheet
+
