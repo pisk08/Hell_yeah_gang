@@ -245,7 +245,8 @@ During this work, the basic Linux commands for navigating the file system and ma
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
-- **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" , did sheet and conclusion
+- **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented", did sheet and conclusion
+
 
 
 
