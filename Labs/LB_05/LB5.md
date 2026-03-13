@@ -131,7 +131,27 @@
 
 
 # 2. Опрацюйте всі приклади команд, що представлені у лабораторних роботах курсу NDG Linux Essentials - Lab 7: Navigating the Filesystem та Lab 8: Managing Files and Directories. Створіть таблицю для опису цих команд
-
+| Назва команди | Просте пояснення |
+| :--- | :--- |
+| pwd | Показує, у якій папці зараз знаходиться користувач |
+| cd Documents | Переходить у папку Documents |
+| echo | Виводить текст або значення змінних у терміналі |
+| ls | Показує список файлів і папок у поточній директорії |
+| ls -a | Показує всі файли, у тому числі приховані |
+| ls -l | Показує детальну інформацію про файли (права, розмір, дату) |
+| ls -R | Показує файли у поточній папці та у всіх підпапках |
+| ls -d | Показує саму папку, а не її вміст |
+| cp | Копіює файл або папку |
+| cp -v або --verbose | Копіює файли та показує процес копіювання |
+| rm | Видаляє файл |
+| cp -p | Копіює файл, зберігаючи його права та дату |
+| cp -R | Копіює папку разом з усіма файлами всередині |
+| mkdir | Створює нову папку |
+| rm -r | Видаляє папку разом з усім її вмістом |
+| rmdir | Видаляє порожню папку |
+| touch premove | Створює порожній файл premove |
+| mv premove postmove | Перейменовує файл premove у postmove |
+| rm postmove | Видаляє файл postmove |
 
 # 3. Робота в в терміналі (закріплення практичних навичок) обов'язково представити свої скріншоти:
 **1-2. Визначення поточного каталогу та перехід до кореневого каталогу:**
@@ -220,11 +240,13 @@ The fastest way is to use the output redirection of the `echo` command:
 
 ![](img/twitter-gif-2027148733020766343_69a0eba0c0d7f.gif)
 
-
+## Conclusions
+During this work, the basic Linux commands for navigating the file system and managing files and directories were studied. Commands for viewing the current directory, moving between directories, creating, copying, moving, and deleting files and folders were explored. The acquired knowledge allows efficient work with the Linux file system using the terminal.
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
-- **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" and did sheet
+- **Member 3 ([Vangus387474])**:  Did 2 task "Work through all the command examples presented" ,did sheet and conclusion
+
 
 
 
