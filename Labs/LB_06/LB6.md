@@ -382,8 +382,7 @@ command > /dev/null 2>&1
   
 ![](img/twitter-gif-2027148733020766343_69a0eba0c0d7f.gif)
 
-## Conclusions
-During this work, the basic Linux commands for navigating the file system and managing files and directories were studied. Commands for viewing the current directory, moving between directories, creating, copying, moving, and deleting files and folders were explored. The acquired knowledge allows efficient work with the Linux file system using the terminal.
+
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
