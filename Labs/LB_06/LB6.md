@@ -376,8 +376,14 @@ command > /dev/null 2>&1
 
 ---
 
-## Conclusions
-During this work, the basic Linux commands for navigating the file system and managing files and directories were studied. Commands for viewing the current directory, moving between directories, creating, copying, moving, and deleting files and folders were explored. The acquired knowledge allows efficient work with the Linux file system using the terminal.
+## Висновок (Conclusion)
+During this laboratory work, practical experience in using the Bash command-line interface in the Linux operating system was gained. The main tools for archiving and compressing data, including tar, gzip, bzip2, and xz, were explored. 
+
+Their functions, key options, and real usage for creating, viewing, and extracting archives were examined.
+
+The work also covered text processing utilities such as cat, less, more, head, tail, and grep, which are commonly used for viewing, searching, and handling text files in Linux.
+
+Particular focus was given to input/output streams, redirection, pipes, and filters in Bash. These features make it possible to combine commands and process data efficiently within the terminal.
 
   
 ![](img/twitter-gif-2027148733020766343_69a0eba0c0d7f.gif)
