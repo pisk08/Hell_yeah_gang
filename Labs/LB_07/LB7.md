@@ -230,6 +230,12 @@ dmesg | grep — перевірка системних повідомлень п
 GParted — це утиліта з графічним інтерфейсом для керування дисковими розділами. Вона дозволяє створювати, видаляти, змінювати розміри, форматувати розділи, змінювати файлові системи, виставляти прапорці (наприклад, boot), перевіряти та відновлювати розділи, а також працювати з таблицями розділів (MBR, GPT).
 
 ---
+## Conclusion
+Practical application of scripting tools demonstrated the ability to create, modify, and execute scripts for performing routine operations and retrieving system information. Additionally, methods for determining hardware configuration were explored using standard system utilities, allowing for analysis of CPU, memory, storage devices, and connected hardware components.
+
+Key concepts related to system architecture, including disk partitioning schemes (MBR and GPT) and the mounting process, were also considered as essential elements of system operation.
+
+The results confirm that Bash scripting and built-in Linux utilities provide an effective approach to task automation and system analysis, forming a fundamental part of system administration practices.
 
 
 ---
@@ -239,9 +245,3 @@ GParted — це утиліта з графічним інтерфейсом д�
 - **Member 2 ([Pisk08])**:  Did 2 task "Приклади команд з NDG Lab 11 & 12", did sheet and conclusion
 - **Member 3 ([Vangus387474])**:  Did technical part of work and took screenshots
 
-## Conclusion
-Practical application of scripting tools demonstrated the ability to create, modify, and execute scripts for performing routine operations and retrieving system information. Additionally, methods for determining hardware configuration were explored using standard system utilities, allowing for analysis of CPU, memory, storage devices, and connected hardware components.
-
-Key concepts related to system architecture, including disk partitioning schemes (MBR and GPT) and the mounting process, were also considered as essential elements of system operation.
-
-The results confirm that Bash scripting and built-in Linux utilities provide an effective approach to task automation and system analysis, forming a fundamental part of system administration practices.
