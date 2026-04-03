@@ -272,7 +272,10 @@ cat -s lab8.txt
 Команда `ifconfig eth1`, це покаже лише інформацію про eth1, без інших інтерфейсів.
 
 ---
-
+## Висновок (Conclusion)
+During this practical work, we gained practical experience using the Bash shell to run commands, manage files, and automate routine tasks. We studied the main system information structures, 
+including processes, memory usage, log files, and kernel messages. We also became familiar with the Filesystem Hierarchy Standard (FHS) and how it organizes directories and files in Linux. 
+In addition, we covered basic network configuration tasks, which helped build an understanding of how network settings are managed in a Linux system.
 
 
 ---
