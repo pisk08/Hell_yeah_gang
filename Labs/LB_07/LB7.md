@@ -10,7 +10,7 @@
 ## Матеріальне забезпечення
 * ЕОМ типу IBM PC.
 * ОС сімейства Windows та віртуальна машина Virtual Box (Oracle).
-* ОС GNU/Linux (Arch).
+* ОС GNU/Linux (Kali).
 * Сайт мережевої академії Cisco netacad.com та його онлайн курси по Linux
 
 ---
