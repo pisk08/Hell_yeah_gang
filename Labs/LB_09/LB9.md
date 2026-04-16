@@ -39,7 +39,7 @@
 
 | Користувач | Група |
 | :--- | :--- |
-| petryshaka | petryshaka |
+| maxpisko67vidrizach | DJA |
 
 Доцільність використання UPG:
 
@@ -221,6 +221,6 @@ The results indicate that the built-in Linux tools are sufficient for implementi
 ## Team Contributions
 - **Member 1 ([Shanson777])**: Registered almost full report, created sheet of terms
 - **Member 2 ([Pisk08])**:  Did technical part of work and took screenshots
-- **Member 3 ([Vangus387474])**:  Did 2 task "Приклади команд з NDG Lab 9 & 10", did sheet and conclusion
+- **Member 3 ([Vangus387474])**:  Did 2 task " Приклади команд з NDG Lab 15 & 16", did sheet and conclusion
 
 
